@@ -1,0 +1,30 @@
+{
+    "name": "fulljs",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Ashfaq",
+    "license": "MIT",
+    "scripts": {
+        "dev-server": "nodemon --exec babel-node src/server/server.js --ignore dist/",
+        "dev-bundle": "webpack -wd"
+    },
+    "dependencies": {
+        "@babel/node": "^7.7.4",
+        "@babel/core": "^7.7.5",
+        "@babel/preset-env": "^7.7.5",
+        "@babel/preset-react": "^7.7.4",
+        "babel-loader": "^8.0.6",
+        "express": "^4.17.1",
+        "react": "^16.12.0",
+        "react-dom": "^16.12.0",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.10"
+    },
+    "devDependencies": {
+        "babel-eslint": "^10.0.3",
+        "nodemon": "^2.0.1",
+        "eslint": "^6.7.2",
+        "eslint-plugin-react": "^7.17.0",
+        "eslint-plugin-react-hooks": "^2.3.0"
+    }
+}
